@@ -1,8 +1,10 @@
 site_name: frameworkdocs
 nav:
-    - framehelpdocs: frameHelp.md
-    - yamlhelpdocs: yamlHelp.md
-    - markdowndocs: mdHelp.md
+    - 框架说明文档: frameHelp.md
+    - YAML编写规范: yamlHelp.md
+    - MarkDown编写规范: mdHelp.md
+    - 浏览器驱动下载: browser.md
+    - PIP资源下载慢: pip.md
 theme: readthedocs
 repo_url: https://github.com/chrishshare/framework
 site_description: framework

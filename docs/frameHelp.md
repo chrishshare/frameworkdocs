@@ -58,13 +58,14 @@ framework/
 > + APPIUM配置
 
 ## 项目基础项配置
-总共涉及projectType/project/browser三项配置
-* projectType:项目类型配置，目前仅支持web/app/api三种配置
-* project:项目名称，与【项目信息配置】中的一级节点对应一致，当前仅支持配置一个项目
-* browser: 浏览器类型配置，与【浏览器驱动配置】中的一级节点对应一致
+总共涉及projectType/project/browser三项配置  
+projectType:项目类型配置，目前仅支持web/app/api三种配置  
+project:项目名称，与【项目信息配置】中的一级节点对应一致，当前仅支持配置一个项目  
+browser: 浏览器类型配置，与【浏览器驱动配置】中的一级节点对应一致  
 
 ## 项目信息配置
 *可以同时配置多个项目，但仅配置在【项目基础项配置】中“project”的项目生效
+
 1.web项目信息配置  
 rewardbase:  #项目名称，建议用英文，与【项目基础项配置】中的“project”相同  
   url: https://www.baidu.com  #项目地址  
@@ -98,7 +99,7 @@ mysql:  #数据库类型
   jdbcClass: com.mysql.jdbc.Driver    #jdbc驱动类名称  
   jdbcurl: jdbc:mysql://127.0.0.1:3306/autoadmin   #jdbc驱动url，autoadmin表示数据库名称  
   username: autoadmin  #数据库用户  
-  password: Zwx232372  #数据库密码  
+  password: admin123  #数据库密码  
 
 oracle:  #数据库类型  
   jdbcClass: oracle.jdbc.driver.OracleDriver    #jdbc驱动类名称  
@@ -126,4 +127,9 @@ device1:  #设备名称
 
 ## appium_config 
 \#APPIUM配置，默认配置，不用修改
+
+
+
+
+
 
