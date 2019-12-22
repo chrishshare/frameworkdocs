@@ -114,7 +114,7 @@ sqlite:  #数据库类型
 
 
 ##   浏览器驱动配置  
-webbrowser:  #配置开始标识
+webbrowser:  #配置开始标识  
   chrome_x86_v78: chromedriver_win32_78.exe  
   \#浏览器别名，建议:浏览器名称_系统平台_架构_版本: 驱动文件名称，该驱动文件放在drivers目录下对应浏览器类别目录
 
