@@ -1,0 +1,8 @@
+site_name: frameworkdocs
+nav:
+    - framehelpdocs: frameHelp.md
+    - yamlhelpdocs: yamlHelp.md
+    - markdowndocs: mdHelp.md
+theme: readthedocs
+repo_url: https://github.com/chrishshare/framework
+site_description: framework
