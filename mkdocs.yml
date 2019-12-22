@@ -5,6 +5,9 @@ nav:
     - MarkDown编写规范: mdHelp.md
     - 浏览器驱动下载: browser.md
     - PIP资源下载慢: pip.md
+    - 测试数据配置规范: testdata.md
+    - 测试用例编写规范: testcase.md
+    - 页面元素编写规范: element.md
 theme: readthedocs
 repo_url: https://github.com/chrishshare/framework
 site_description: framework
