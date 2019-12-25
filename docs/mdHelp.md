@@ -1,5 +1,3 @@
-https://www.jianshu.com/p/05d808b3ede4  
-# markdown编写规范  
 ##Markdown 标题
     # 一级标题  
     ## 二级标题  
