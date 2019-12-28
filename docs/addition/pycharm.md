@@ -1,4 +1,4 @@
-1. 到官网下载pycharm专业版安装包  
+1、 到官网下载pycharm专业版安装包  
 
 下载地址：[https://www.jetbrains.com/pycharm/download/#section=windows](https://www.jetbrains.com/pycharm/download/#section=windows)    
 安装过程比较简单，根据提示一路默认安装即可。  
@@ -7,13 +7,13 @@
 ![avatar][pycharm1]
 
 
-2. Pychram注册
+2、 Pychram注册
 
 1) 将`0.0.0.0 account.jetbrains.com`添加到`hosts`文件，windows路径为：`C:\Windows\System32\drivers\etc`，linux路径为：`/etc/hosts`  
 2) 访问[http://idea.lanyus.com/](http://idea.lanyus.com/)获取注册码，将获取到的激活码复制到`active code`输入框中，注册成功
 ![avatar][pycharm2]
 
-3. 新建python工程
+3、 新建python工程
 
 File-new project-pure python
 
@@ -22,9 +22,38 @@ File-new project-pure python
 新建项目的时候默认使用的python及其依赖包是系统环境变量中的python安装路径  
 如果您使用了`virtualenv`创建了独立的开发环境，则可以点击`Existing interpreter`后面的`...`选择`virtualenv`创建的环境下script目录下的python。
 
-4 Pycharm常用快捷键
+4、 Pycharm常用快捷键
 
-![avatar][pycharm4]
+快捷键 | 功能 |
+:-: | :-: |
+Ctrl + Q | 快速查看文档 |
+Ctrl + F1 | 显示错误描述或警告信息 |
+Ctrl + / | 行注释（可选中多行） |
+Ctrl + Alt + L | 代码格式化 |
+Ctrl + Alt + O | 自动导入 |
+Ctrl + Alt + I | 自动缩进 |
+Tab / Shift + Tab | 缩进、不缩进当前行（可选中多行） |
+Ctrl+C/Ctrl+Insert | 复制当前行或选定的代码块到剪贴板 |
+Ctrl + D | 复制选定的区域或行到后面或下一行 |
+Ctrl + Y | 删除当前行 |
+Shift + Enter | 下一行另起一行 |
+Ctrl +Ｊ | 插入模版 |
+Ctrl + Shift +/- | 展开/折叠全部代码块 |
+Ctrl + Numpad+ | 全部展开 |
+Ctrl + Numpad- | 全部折叠 |
+Ctrl + Delete | 删除到字符结束 |
+Ctrl + Backspace | 删除到字符开始 |
+Ctrl + Shift + F7 | 将当前单词在整个文件中高亮，F3移动到下一个，ESC取消高亮。 |
+Alt + up/down | 方法上移或下移动 |
+Alt + Shift + up/down | 当前行上移或下移动 |
+Ctrl + B/鼠标左键 | 转到方法定义处 |
+Ctrl + W | 选中增加的代码块 |
+Shift + F6 | 方法或变量重命名 |
+Ctrl + E | 最近访问的文件 |
+Esc | 从其他窗口回到编辑窗口 |
+Shift + Esc | 隐藏当前窗口，焦点到编辑窗口 |
+F12 | 回到先前的工具窗口 |
+
 
 更多内容可查看help文档或者[https://www.cnblogs.com/liangmingshen/p/9297381.html](https://www.cnblogs.com/liangmingshen/p/9297381.html)
 
