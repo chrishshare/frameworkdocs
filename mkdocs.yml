@@ -10,12 +10,17 @@ nav:
     - selenium指导:
         - selenium介绍: selenium/intro.md
         - 各浏览器驱动方法: selenium/webdriver.md
+        - 元素定位方法: selenium/elementlocation.md
+        - chrome调试表达式: selenium/chrome.md
     - 附录:
         - selenium相关: addition/seleniumhelp.md
         - 浏览器驱动下载: addition/browser.md
         - python安装: addition/pythoninstall.md
         - pip相关: addition/pip.md
         - Pycharm安装: addition/pycharm.md
+        - CSS伪类: addition/css.md
+        - Xpath: addition/xpath.md
+        - FAQ: addition/faq.md
 theme: readthedocs
 repo_url: https://github.com/chrishshare/framework
 site_description: framework
