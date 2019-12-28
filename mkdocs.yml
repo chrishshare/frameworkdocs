@@ -4,12 +4,18 @@ nav:
     - 框架说明文档: frameHelp.md
     - YAML编写规范: yamlHelp.md
     - MarkDown编写规范: mdHelp.md
-    - 浏览器驱动下载: browser.md
-    - PIP资源下载慢: pip.md
     - 测试数据配置规范: testdata.md
     - 页面元素配置规范: element.md
     - 测试用例编写规范: testcase.md
-    - selenium指导: selenium.md
+    - selenium指导:
+        - selenium介绍: selenium/intro.md
+        - 各浏览器驱动方法: selenium/webdriver.md
+    - 附录:
+        - selenium相关: addition/seleniumhelp.md
+        - 浏览器驱动下载: addition/browser.md
+        - python安装: addition/pythoninstall.md
+        - pip相关: addition/pip.md
+        - Pycharm安装: addition/pycharm.md
 theme: readthedocs
 repo_url: https://github.com/chrishshare/framework
 site_description: framework
