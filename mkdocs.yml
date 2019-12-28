@@ -1,6 +1,6 @@
 site_name: frameworkdocs
 nav:
-    - index: index.md
+#    - index: index.md
     - 框架说明文档: frameHelp.md
     - YAML编写规范: yamlHelp.md
     - MarkDown编写规范: mdHelp.md
