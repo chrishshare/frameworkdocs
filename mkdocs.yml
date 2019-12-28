@@ -10,7 +10,16 @@ nav:
     - selenium指导:
         - selenium介绍: selenium/intro.md
         - 各浏览器驱动方法: selenium/webdriver.md
-        - 元素定位方法: selenium/elementlocation.md
+        - 元素定位方法:
+              - 简介: selenium/preview.md
+              - ID定位: selenium/id.md
+              - class定位: selenium/class.md
+              - name定位: selenium/name.md
+              - tag定位: selenium/tag.md
+              - link定位: selenium/link.md
+              - xpath定位: selenium/xpath.md
+              - css定位: selenium/css.md
+#          selenium/css.md
         - chrome调试表达式: selenium/chrome.md
     - 附录:
         - selenium相关: addition/seleniumhelp.md
