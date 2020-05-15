@@ -1,6 +1,6 @@
 site_name: frameworkdocs
 nav:
-#    - index: index.md
+    - 首页: index.md
     - 框架说明文档: frameHelp.md
     - YAML编写规范: yamlHelp.md
     - MarkDown编写规范: mdHelp.md
@@ -19,7 +19,6 @@ nav:
               - link定位: selenium/link.md
               - xpath定位: selenium/xpath.md
               - css定位: selenium/css.md
-#          selenium/css.md
         - chrome调试表达式: selenium/chrome.md
     - 附录:
         - selenium相关: addition/seleniumhelp.md
@@ -30,8 +29,20 @@ nav:
         - CSS伪类: addition/css.md
         - Xpath: addition/xpath.md
         - FAQ: addition/faq.md
-theme: readthedocs
+theme:
+  name: material
+  features:
+    - tabs
+    - instant
+  language: zh
+  palette:
+    primary: indigo
+    accent: indigo
 repo_url: https://github.com/chrishshare/framework
 site_description: framework
 site_favicon: imgs/favicon.ico
+markdown_extensions:
+  - admonition
+  - codehilite
+
 
