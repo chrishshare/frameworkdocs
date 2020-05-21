@@ -11,6 +11,5 @@
 版本对应关系：下载最新版本驱动即可  
 
 # Edge  
-[https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)  
-版本对应关系：开始-设置-系统-关于-OS版本 ，下载的驱动版本需要与操作系统版本一致  
+[https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/#downloads](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/#downloads)  
 
